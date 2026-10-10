@@ -32,3 +32,16 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ```{r}
 library(tidyverse)
 ```
+
+```{r}
+7+7
+library(tidyverse)
+install.packages("palmerpenguins")
+library(palmerpenguins)
+
+
+```
+
+```{r}
+penguins |> ggplot(aes(x=bill_depth_mm))+geom_histogram()
+```
