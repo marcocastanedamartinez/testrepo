@@ -39,7 +39,7 @@ library(tidyverse)
 install.packages("palmerpenguins")
 library(palmerpenguins)
 
-
+smokey tije denver
 ```
 
 ```{r}
